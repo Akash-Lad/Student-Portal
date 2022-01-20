@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Student Portal</title>
+  <link rel="stylesheet" href="./css/homepage.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap" rel="stylesheet" />
+  <!---stylesheet for animation--->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+		
+
+</head>
+
+<body>
+  <div id="loader">
+    <div id="loading-content"></div>
+  </div>
+  <div id="allContent" style="display: none;">
+    <div id="navbar"></div>
+
+    <header>
+      <div class="main-name">
+        <img class="logo" src="./images/logo.png" alt="">
+        <h1 class="heading"><marquee>Online File Convertor</marquee></h1>
+      </div>
+      
+    </header>
+
+    <main data-aos="fade-left">
+      <div class="tools-heading" id="tools-heading">
+        <h2>Tools<span class="toolsicon">⚙️</span></h2>
+      </div>
+      <div class="tools-items">
+        <div class="row">
+          <img class="tools-img" src="./images/image.png" alt="" />
+          <button><a href="./Img-to-Pdf/index.html">Image to PDF</a></button>
+        </div>
+        <div class="row">
+          <img class="tools-img" src="./images/docs.png" alt="" style="padding-bottom: 25px" />
+          <button><a href="./Word-to-Pdf/index.html">Document to PDF</a></button>
+        </div>
+        <div class="row">
+          <img class="tools-img" src="./images/text.png" alt="" />
+          <button><a href="./Text-to-pdf/index.html">Text to PDF</a></button>
+        </div>
+        <div class="row">
+          <img class="tools-img" src="./images/zip.png" alt="" />
+          <button><a href="#">Extract zip file</a></button>
+        </div>
+        <div class="row">
+          <img class="tools-img resize-img" src="./images/Imgresize.png" alt="" />
+          <button><a href="./imageresize.html">Resize Image</a></button>
+        </div>
+      </div>
+    <div data-aos="fade-right">
+
+      
+      <div class="tools-heading about-section" id="about-section">
+        <h2>About 📑</h2>
+      </div>
+      <div class="about-content">
+        This is easy-to-use, user-friendly interactive webapp includes all tools that might help students and professionals
+        in urgencies, like convertors for text files, documents and images to pdf, extracting .zip files. <br/><br/> Now get
+        your work done in few minutes without investing time on any third-party applications. The need to navigate to
+        several sites is over! Come to Student-Portal, choose your action tool, drop your file, get the work done,
+        download the same. And it's done. Yeah! It's that simple.
+
+      </div>
+    </div>
+    </main>
+    <footer>
+
+      <div>
+        <a href="https://github.com/Akash-Lad"><i class="fab fa-github"></i></a>
+      </div>
+      <br>
+      <p>This is a Open Source Project on GitHub. <br> Please help us to <a href="https://github.com/Akash-Lad/Go-Tools">Improve this</a>.</p> <br> <br>
+    </footer>
+
+    <!-- Javascript  -->
+    <script src="./js/script.js"></script>
+
+
+    <!-- Scripts for Chatbot -->
+    <script src="./js/popup_chatbot.js"></script>
+
+    <!-- chatbot implementation-->
+
+    <!---scripts for animation--->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset:400,
+        duration:1000
+      });
+    </script>
+ 
+  </div>
+
+</html>
