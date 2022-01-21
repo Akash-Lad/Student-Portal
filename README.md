@@ -2,6 +2,10 @@
 
 ## An online go-to platform for soft copy transformations on a single page application
 
+<code><img height="50" src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-ar21.svg"></code>
+<code><img height="50" src="https://www.vectorlogo.zone/logos/github/github-ar21.svg"></code>
+
+
 | Azure Deployed | GitHub Deployed |
 | ------------- | ------------- |
 | https://gentle-water-0ecc07c10.1.azurestaticapps.net/ | https://akash-lad.github.io/Student-Portal/ |
